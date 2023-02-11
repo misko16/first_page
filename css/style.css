@@ -96,6 +96,7 @@ section {
 .up-block {
   display: flex;
   gap: 40px;
+  font-family: 'Roboto';
 }
 .navigation-list {
   font-weight: 700;
@@ -441,9 +442,10 @@ section {
 }
 
 .footer {
-  background: #2e2f42;
+  background-color: #2e2f42;
   padding: 100px 0;
   display: flex;
+  justify-content: flex-start;
 }
 
 .footer-paragraph {
@@ -454,6 +456,7 @@ section {
   color: #e7e9fc;
   margin-right: auto;
   width: 264px;
+  margin-bottom: 16px;
 }
 .logo-footer {
   font-weight: 800;
@@ -465,10 +468,12 @@ section {
   text-transform: uppercase;
   color: #f4f4fd;
   font-family: "Raleway";
+  margin-bottom: 16px;
 }
 .div-second-page {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   height: 120px;
+  padding: 16px 32px;
 }
 .div-second-page:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -545,5 +550,7 @@ section {
   display: flex;
   flex-direction: column;
   margin-right: 120px;
-  margin-left: 156px;
+}
+.footer-main{
+  display: flex;
 }
