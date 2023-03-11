@@ -1,0 +1,266 @@
+@media (min-width:1200px) {
+    .conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    /*--------PORTFOLIO--------*/
+    .portfolio-list-first{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-list {
+    width:360px;
+    margin-bottom: 48px;
+    translate: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-list:nth-child(3n) {
+    margin-right: 0;
+}  
+.portfolio-list:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+/*---CUSTOMERS -----*/
+.customers-list {
+    flex-wrap:nowrap;
+    max-width: 1200px;
+}
+/*---HERO----*/
+.hero-decor{
+    background-color: #2e2f42;
+    background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+),
+url(../images/dekor/backgraund.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+max-width:1440px;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),(min-resolution: 2dppx) {
+.hero {
+    background-image: url('../images/dekor/Adaptiv-pictures-2x/bg-laptop2x.jpg'),
+    linear-gradient(
+rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7)),;
+}
+}
+/*---------GALARY----------*/
+.galary {
+    padding-top: 0;
+    display: block;
+    margin: 0 auto;
+}
+.galaru-second {  
+    display: flex;
+    gap: 24px;
+}
+.galary-img{
+    width: 360px;
+    margin: 0 auto;
+}
+/*-----REVIEVS SECTION-------*/
+.reviews-people::before {
+    display: block;
+    content: "";
+    width: 264px;
+    height: 112px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+    margin-right:24px;
+  }
+.strategy::before {
+    background-image: url(../images/dekor/strategy.svg);
+}
+
+.punctuality::before {
+    background-image: url(../images/dekor/punctuality.svg);
+}
+.diligence::before {
+    background-image: url(../images/dekor/diligence.svg);
+}
+
+.technologies::before {
+    background-image: url(../images/dekor/technologies.svg);
+}
+.review-list{
+display: flex;
+gap: 24px;
+}
+.reviews-paragraph{
+    width:264px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.review-title{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+/*-----NAVIGATION-----*/
+.navigation-list:hover {
+    color: #4d5ae5;
+}
+.contact:hover,
+.contact:focus {
+color: #404bbf;
+}
+.navigation-hover::after{
+    transform: scaleX(0);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navigation-hover:hover::after{
+    transform: scaleX(1);
+}
+.navigation-hover:hover{
+    color: #404bbf;
+}
+.navigation-hover-list{
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navigation-hover-list::after{
+    transform: scaleX(1);
+}
+.contacts-phone{
+    font-size: 16px;
+}
+.contacts-mail{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.up-contacts{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+/*-------HERO---------*/
+.btn-hero{
+transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-hero:hover,
+.btn-hero:focus {
+background-color: #404bbf;
+}
+/*------------TEAM--------------*/
+.href{
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.href:hover {
+    background-color: #404bbf;
+}
+
+.button-second-page{
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-pointer:hover,
+.button-pointer:focus {
+background: #404bbf;
+color: white;
+cursor: pointer;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+/*--------PORTFOLIO--------*/
+.portfolio-list{
+    translate: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-list:hover .portfolio-animation-paragraph
+{
+  transform: translateY(0%);
+}
+.portfolio-list:hover .div-second-page{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-animation-paragraph{
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/*----------CUSTOMERS-----------*/
+.customers-li{
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customers-li:hover,
+.customers-href:hover{
+border-color: #404bbf;
+color: #404bbf;
+fill: #404bbf;
+}
+.customers-href{
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/*-----------FOOTER-------------*/
+.footer-href{
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-href:hover {
+    background-color: #31d0aa;
+}
+.customers-svg:hover{
+    fill: #404bbf;
+}
+/*-------CHECKBOX---------*/
+.span-checkbox{
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/*-------REVIEW SECTION---------*/
+.reviews-paragraph{
+}
+/*----------------FOOTER--------------------*/
+.footer-main{
+    flex-wrap: nowrap;
+    padding-left:15px;
+    padding-right: 15px;
+}
+.footer-div{
+    margin-right: 120px;
+}
+.footer-social{
+    margin-right: 80px;
+}
+/*-------------*/
+.portfolio-list-first {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-list {
+    width: 360px;
+    margin-right: 24px;
+    margin-bottom: 48px;
+    translate: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+.portfolio-list:nth-child(3n) {
+    margin-right: 0;
+}
+  
+.portfolio-list:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+.portfolio-hover-animation{
+    position: relative;
+    overflow: hidden;
+  }
+  .portfolio-animation-paragraph{
+    position: absolute;
+    color: #ffffff;
+    background-color:#4D5AE5;
+    top: 0;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 40px;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.reviews-title{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+}

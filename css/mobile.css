@@ -1,0 +1,37 @@
+@media (min-width:480px) {
+    .conteiner-mobile{
+    max-width: 480px;
+    padding: 0 15px;
+    }
+    section {
+        padding: 96px 0;
+    }
+    .hero-title{
+        width: 320px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .btn-hero{
+        font-weight: 700;
+    }
+    .hero{
+    }
+    .href-contacts-mobile-phone{
+        font-size: 36px;
+    }
+    .input-subscribe{
+        width: 398px;
+    }
+    .reviews-people{
+        max-width: 396px;
+        margin: 0 auto;
+    }
+    .social-media-mobile{
+        gap: 56px;
+    }
+    .customers-list{
+        max-width:480px;
+        margin: 0 auto;
+    }
+}
