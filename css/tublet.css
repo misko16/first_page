@@ -103,6 +103,9 @@ rgba(46, 47, 66, 0.7)),;
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
+  .subscribe-section{
+    margin: 0;
+  }
   .navigation {
     margin-left: 118px;
   }

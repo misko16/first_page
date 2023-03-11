@@ -12,6 +12,9 @@
         font-size: 36px;
         line-height: 40px;
     }
+    .center-div{
+        max-width: 480px;
+    }
     .btn-hero{
         font-weight: 700;
     }
@@ -33,5 +36,8 @@
     .customers-list{
         max-width:480px;
         margin: 0 auto;
+    }
+    .button-list-div{
+        max-width: 480px;
     }
 }

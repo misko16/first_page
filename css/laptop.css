@@ -3,6 +3,9 @@
     max-width: 1200px;
     margin: 0 auto;
     }
+    section {
+        padding: 120px 0;
+}
     /*--------PORTFOLIO--------*/
     .portfolio-list-first{
     display: flex;
