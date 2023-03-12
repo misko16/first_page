@@ -200,8 +200,9 @@ flex-direction: row;
   align-items: flex-start;
 }
 /*-------PORTFOLIO----------*/
-.portfolio-hover-animation{
-  max-width: 356px;
+.portfolio-height{
+  height: auto;
+width: 356px;
 }
 .div-second-page{
   max-width: 356px;

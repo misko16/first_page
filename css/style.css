@@ -164,6 +164,7 @@ flex-direction: column;
   display: block;
   margin-left:auto;
   border: none;
+  background-color: #ffffff;
 }
 
 .backdrop-mobile-div{
@@ -194,12 +195,20 @@ padding-right: 24px;
 }
 .svg-backdrop-mobile{
   stroke: var(--dark);
+  stroke-linejoin:var(--white-text-color);
+  stroke-linecap:var(--white-text-color);
 }
 .href-navigation-mobile{
   font-weight: 700;
 font-size: 36px;
 line-height: 40px;
 color: var(--dark);
+}
+.href-navigation-mobile-carrent{
+  font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+color: var(--button-active);
 }
 .navigation-mobile-li{
   margin-bottom: 40px;
@@ -216,12 +225,11 @@ line-height: 40px;
 }
 .contacts-mobile-li{
 }
-
 .href-contacts-mobile-phone{
-  color: var(--dark);
+  color:var(--primary-brand);
   font-weight: 700;
-font-size: 18px;
-line-height: 40px;
+  font-size: 36px;
+  line-height: 40px;
 margin-bottom: 40px;
 }
 .href-contacts-mobile-mail{
@@ -569,7 +577,8 @@ line-height: 40px;
 }
 .div-second-page {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-  padding: 32px 16px;
+ padding-left:16px;
+  height: 120px;
 }
 .div-second {
   height: 120px;

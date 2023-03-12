@@ -22,6 +22,7 @@
     }
     .href-contacts-mobile-phone{
         font-size: 36px;
+        max-width:356px;
     }
     .input-subscribe{
         width: 398px;
@@ -42,5 +43,8 @@
     }
     .hero-decor{
         max-width: 480px;
+    }
+    .div-second-page{
+        max-width: 360px;
     }
 }

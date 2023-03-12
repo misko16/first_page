@@ -6,13 +6,22 @@
     section {
         padding: 120px 0;
 }
+.hero-title{
+    font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+}
     /*--------PORTFOLIO--------*/
     .portfolio-list-first{
     display: flex;
     flex-wrap: wrap;
 }
+.portfolio-height{
+    height: 300px;
+    width: 360px;
+}
 .portfolio-list {
-    width:360px;
+    width:356px;
     margin-bottom: 48px;
     translate: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -21,6 +30,9 @@
 }  
 .portfolio-list:nth-last-child(-n + 3) {
     margin-bottom: 0;
+}
+.div-second-page{
+    width: 360px;
 }
 /*---CUSTOMERS -----*/
 .customers-list {
@@ -179,6 +191,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .portfolio-animation-paragraph{
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -250,6 +263,7 @@ fill: #404bbf;
   }
   .portfolio-animation-paragraph{
     position: absolute;
+    display: block;
     color: #ffffff;
     background-color:#4D5AE5;
     top: 0;
