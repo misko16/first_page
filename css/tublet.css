@@ -208,7 +208,7 @@ width: 356px;
   max-width: 356px;
 }
 .portfolio-list{
-  width: 356px;
+  max-width: 356px;
 }
 .portfolio-list:nth-child(2n+1){
   margin-right: 24px;

@@ -32,7 +32,7 @@ line-height: 60px;
     margin-bottom: 0;
 }
 .div-second-page{
-    width: 360px;
+    max-width: 360px;
 }
 /*---CUSTOMERS -----*/
 .customers-list {
