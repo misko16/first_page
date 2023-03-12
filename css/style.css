@@ -275,7 +275,8 @@ url(../images/dekor/backgraund.jpg);
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center;
-max-width:428px;
+width: 100%;
+
 margin: 0 auto;
 }
 @media (min-device-pixel-ratio: 2),
@@ -292,9 +293,9 @@ rgba(46, 47, 66, 0.7)),;
 .hero-decor {
 }
 .hero-title {
-  width: 290px;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 36px;
+  line-height: 40px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
