@@ -510,6 +510,7 @@ line-height: 40px;
   position: relative;
   overflow: hidden;
   max-width: 360px;
+  max-height:300px;
 }
 .portfolio-animation-paragraph{
   display: none;

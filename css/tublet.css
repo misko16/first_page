@@ -7,13 +7,13 @@
     display: flex;
     flex-wrap: wrap;
     }
+    .portfolio-hover-animation{
+
+    }
     section {
         padding: 96px 0;
     }
     .portfolio-list {
-    width: 356px;
-    /* margin-bottom: 72px;
-    margin-right: 24px; */
     }
     /* .portfolio-list:nth-child(2n){
       margin-right: 0;
@@ -25,6 +25,9 @@
   gap: 24px;
 }
 .customers-list{
+}
+.portfolio-animation-paragraph{
+  display: none;
 }
 /*---HERO----*/
 .hero-title{
@@ -219,5 +222,9 @@ width: 356px;
 }
 .customers-list{
   max-width:768px;
+}
+.img-portdolio-first{
+  max-width: 356px;
+  height: 300px;
 }
 }

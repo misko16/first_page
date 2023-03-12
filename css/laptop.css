@@ -12,16 +12,12 @@ font-size: 56px;
 line-height: 60px;
 }
     /*--------PORTFOLIO--------*/
-    .portfolio-list-first{
-    display: flex;
-    flex-wrap: wrap;
-}
-.portfolio-height{
-    height: 300px;
-    width: 360px;
+
+
+.img-portdolio-first{
+    max-width: 360px;
 }
 .portfolio-list {
-    width:356px;
     margin-bottom: 48px;
     translate: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
